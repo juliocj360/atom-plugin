@@ -1,0 +1,19 @@
+{
+  "name": "atom-plugin",
+  "main": "./lib/text-speaker",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "Text Speaker:toggle"
+  },
+  "repository": "https://github.com/juliocj360/atom-plugin.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "watson-developer-cloud": "^2.18.0",
+    "watson-speech": "^0.32.1"
+  }
+}
